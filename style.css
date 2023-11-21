@@ -1,0 +1,98 @@
+/*heading*/
+h1{
+    color: pink;
+    font-family:'Agbaluma', sans-serif;
+    font-style: bold;
+    font-size: 35px;
+    text-align: center;
+
+    border-left: double;
+    border-left-width: 10px;
+    border-left-color: black;
+    border-right: double;
+    border-right-width: 10px;
+    border-right-color: black;
+
+ 
+}
+/*heading 3 1st and 2nd head*/
+.head{
+    font-family:'Roboto', sans-serif;
+    font-style: bold;
+    font-weight: 500;
+    height: center;
+    width: center;
+    text-align: center;
+    border: 1px solid;
+    font-size: 20px;
+    background: black;
+    color: white;
+}
+#headrev{
+    font-family:'Roboto', sans-serif;
+    font-style: bold;
+    font-weight: 500;
+    height: center;
+    width: center;
+    border: 1px solid;
+    font-size: 20px;
+    background: black;
+    color: white;
+    text-align: left;
+}
+/*paragraphs and lists*/
+p, ul{
+    font-family:'Josefin Sans';
+    color:white;
+}
+
+/* borders*/ 
+
+#list{
+    border-style:dotted;
+    width: fit-content;
+    height: fit-content;
+    border-width:5px;
+    border-color:violet;
+    border-radius:3px;
+    font-style: italic;
+    padding:3px;
+}
+/*background*/
+
+body{
+    background: linear-gradient(black,pink,violet);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*margin*/
+#p1 {
+    border: solid;
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+    background:pink;
+    text-align: center;
+    color: black;
+}
+
+/*iimage position*/
+#im1 {
+    height: 300px;
+	width: 250px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#im2 {
+    height: 20px;
+    width:300px ;
+    object-fit: cover;
+    height: 80vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
